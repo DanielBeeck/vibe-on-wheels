@@ -4,7 +4,14 @@ module.exports = defineConfig({
   css: {
     loaderOptions: {
       sass: {
-        prependData: `@import "@/styles/main.scss";`,
+        implementation: require('sass'), // Use Dart Sass implementation
+        sassOptions: {
+          // Use 'additionalData' instead of 'prependData'
+          additionalData: `
+            @import "@/assets/styles/variables.scss"; // Import your custom variables here
+          `,
+        },
+        sourceMap: true, // Enable source maps if needed
       },
     },
   },
