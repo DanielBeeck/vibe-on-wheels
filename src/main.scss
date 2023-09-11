@@ -1,0 +1,58 @@
+$font-stack: Avenir, Helvetica, Arial, sans-serif;
+$primary-color: rgb(237, 245, 251);
+$hovercolor: #accbe1ff;
+$main-bg: #536b78ff;
+$secondary-bg: #637081ff;
+$highlighted: #7c98b3ff;
+
+#app{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $font-stack;
+}
+
+* {
+  background-color: $main-bg;
+  color: $primary-color;
+}
+
+header{
+  display: flex;
+  align-items: end;
+  // Logo
+  img{
+    width: 80px;
+    height: 80px;
+  }
+
+  // name of the Website
+  h3{
+    font-size: 50px;
+    margin: 0 40px 0 0;
+  }
+
+  div[class='t1']{
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bold;
+    align-self: center;
+    padding: 0 20px 0 20px;
+  }
+  div[class='t1']:hover{
+    color: $hovercolor;
+  }
+}
+
+input{
+  height: 30px;
+  width: 200px;
+}
+
+img{
+  width: 600px;
+  height: auto;
+}
+
+a {
+  color: #42b983;
+}
