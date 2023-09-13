@@ -32,9 +32,9 @@
     <div>
       <h4>Folgen Sie uns</h4>
       <img src="../assets/icons/instagram.svg" alt="">
-      <img src="../assets/icons/twitter-square.svg" alt="">
-      <img src="../assets/icons/youtube-square.svg" alt="">
-      <img src="../assets/icons/linkedin-square.svg" alt="">
+      <img src="../assets/icons/twitter.svg" alt="">
+      <img src="../assets/icons/youtube.svg" alt="">
+      <img src="../assets/icons/linkedin.svg" alt="">
     </div>
   </footer>
 </template>

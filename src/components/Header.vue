@@ -14,6 +14,7 @@
       VOW+
     </div>
   </header>
+  <hr>
 </template>
 
 <script>
